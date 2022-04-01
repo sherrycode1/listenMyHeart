@@ -1,0 +1,42 @@
+/* components/video-item-v1/index.wxss */
+
+.item{
+  width: 100%;
+}
+
+.item .content{
+  padding-top: 20rpx;
+  font-size: 30rpx;
+}
+.album {
+  width: 100%;
+  position: relative;
+  
+}
+.album .image{
+ width: 100%;
+ border-radius: 8%;
+ 
+}
+
+.album .info{
+  width: 100%;
+  position: absolute;
+  
+  left: 0;
+  top: 150rpx;
+  font-size: 13px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info .icon {
+  width: 40rpx;
+  height: 40rpx;
+  padding-right: 10rpx;
+}
+
+.info .count{
+  display: flex;
+}

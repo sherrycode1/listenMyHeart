@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/home-music/index",
+    "pages/home-video/index",
+    "pages/detail-video/detail-video",
+    "pages/detail-search/detail-search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home-music/index",
+        "text": "Music",
+        "iconPath": "/pages/icon/music.png",
+        "selectedIconPath": "/pages/icon/music_fill.png"
+      },
+      {
+        "pagePath": "pages/home-video/index",
+        "text": "Video",
+        "iconPath": "/pages/icon/video (1).png",
+        "selectedIconPath": "/pages/icon/video.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,7 @@
+<van-search
+disabled
+background="#4fc08d"
+placeholder="搜你喜欢的"
+shape="round"
+bind:click-input="handleSearchClick"
+/>

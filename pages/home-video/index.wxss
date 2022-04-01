@@ -1,0 +1,10 @@
+/* pages/home-video/index.wxss */
+.video {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 47%;
+  padding: 10rpx 10rpx 20rpx 10rpx;
+}

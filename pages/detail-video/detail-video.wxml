@@ -1,9 +1,22 @@
 <!--pages/detail-video/detail-video.wxml-->
-<video 
-src="{{mvURLInfo.url}}" 
-class="video"
-autoplay
-loop
-></video>
+<wxs src="/pages/utils/format.wxs" module="format"></wxs>
+<video src="{{mvURLInfo.url}}" class="video" autoplay loop></video>
 
-<view ></view>
+<view class="video-info">
+  <view class="info">
+    <view class="info-name">{{mvDetail.name}}</view>
+    <view class="info-author">{{mvDetail.artistName}}</view>
+    <view class="info-view-date">
+      <view class="view-count">{{format.formatCount(mvDetail.playCount)+'次播放'}}-</view>
+      <view class="date">{{mvDetail.publishTime}}</view>
+    </view>
+  </view>
+  <view class="related-video">
+  <view class="recommand">推荐视频</view>
+  <view wx:for="{{relatedVideos}}"> 
+    <video-column-item 
+    relatedVideo="{{item}}"
+      />
+  </view>
+  </view>
+</view>

@@ -1,5 +1,5 @@
 // pages/home-video/index.js
-import  { getTopMv } from '../service/api_video'
+import  { getTopMv } from '../../service/api_video'
 
 Page({
 

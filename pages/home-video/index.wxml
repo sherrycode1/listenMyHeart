@@ -2,9 +2,11 @@
 
 <view class="video">
   <view wx:for="{{topMvs}}" class="item" wx:key="id">
-    <video-item-v1 item="{{item}}" 
+    <video-item-v1 
+    item="{{item}}" 
     bindtap="handleVideoItemClick"
     data-item="{{item}}"
+    referrer-polic="origin"
     ></video-item-v1>
   </view>
 </view>

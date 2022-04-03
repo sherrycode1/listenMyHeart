@@ -1,7 +1,20 @@
-<van-search
-disabled
-background="#4fc08d"
-placeholder="搜你喜欢的"
-shape="round"
-bind:click-input="handleSearchClick"
-/>
+<van-search disabled placeholder="搜你喜欢的" shape="round" bind:click-input="handleSearchClick" />
+
+<!-- 轮播图 -->
+<swiper class="swiper" indicator-dots autoplay circular style="height:{{swiperHeight}}px;">
+  <block id="bannerId" wx:for="{{banners}}">
+    <swiper-item class="swiper-item">
+      <image class="swiper-image" src="{{item.pic}}" mode="widthFix" bindload="handleSwiperLoaded"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 推荐歌曲 -->
+<view class="recommand-song">
+  <area-header title="推荐歌曲"></area-header>
+  <view class="song-list">
+    <block wx:for="{{recommandSongs}}" wx:key="id">
+      <song-item-v1 item="{{item}}"></song-item-v1>
+    </block>
+  </view>
+</view>

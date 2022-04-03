@@ -1,0 +1,12 @@
+/* components/song-item-v1/index.wxss */
+
+.item{
+  width: 100%;
+  height: 200rpx;
+}
+
+.item .image{
+  width: 70px;
+  height: 70px;
+  border-radius: 12%;
+}

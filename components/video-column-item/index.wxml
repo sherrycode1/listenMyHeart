@@ -1,0 +1,5 @@
+<!--components/video-column-item/index.wxml-->
+<view class="item">
+<view>东西在那里！</view>
+  {{relatedVideo}}
+</view>

@@ -1,9 +1,35 @@
 /* pages/detail-video/detail-video.wxss */
-page{
+page {
   padding-top: 225px;
 }
-.video{
+
+.video {
   width: 100%;
   position: fixed;
   top: 0;
+}
+
+.video-info{
+  padding: 0 30rpx;
+}
+.info-name {
+  font-size: 25px;
+  padding-bottom: 20rpx;
+}
+
+.info-author {
+  font-size: 17px;
+  color: gray;
+  padding-bottom: 20rpx;
+}
+
+.info-view-date {
+  display: flex;
+  color: gray;
+  padding-bottom: 20rpx;
+}
+
+.recommand{
+  font-size: 22px;
+  padding: 20rpx 0;
 }

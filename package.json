@@ -19,6 +19,8 @@
   "homepage": "https://github.com/sherrycode1/listenMyHeart#readme",
   "dependencies": {
     "@vant/weapp": "^1.10.2",
+    "hy-event-store": "^1.2.1",
+    "miniprogram-sm-crypto": "^0.3.7",
     "vant": "^2.12.46"
   }
 }

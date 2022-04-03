@@ -1,0 +1,27 @@
+/* components/area-header/index.wxss */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 20rpx 0;
+}
+
+.header .slot:empty + .default{
+  display: flex;
+  align-items: center;
+}
+.header .default{
+  display: none;
+}
+.right{
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-size: 18px;
+}
+
+.right .icon{
+  width: 20px;
+  height: 20px;
+}

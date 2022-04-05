@@ -1,1 +1,21 @@
-/* components/video-column-item/index.wxss */
+.item{
+  display: flex;
+  padding-bottom: 30rpx;
+  box-sizing: border-box;
+}
+
+.image{
+   width: 150px;
+   height: 100px;
+   padding-right: 30rpx;
+   
+}
+.desc .title{
+ font-size: 17px;
+ padding-bottom: 20rpx;
+}
+
+.desc .author{
+  font-size: 14px;
+  color: #333;
+}

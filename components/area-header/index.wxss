@@ -3,10 +3,12 @@
 .header{
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 18px;
   padding: 20rpx 0;
 }
-
+.header .right{
+  font-size: 15px;
+}
 .header .slot:empty + .default{
   display: flex;
   align-items: center;

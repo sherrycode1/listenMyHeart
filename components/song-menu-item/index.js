@@ -1,12 +1,12 @@
-// components/video-column-item/index.js
+// components/song-menu-item/index.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    item:{
-      type:Object,
-      value:{}
+    item: {
+      type: Object,
+      value: {}
     }
   },
 
@@ -22,7 +22,5 @@ Component({
    */
   methods: {
 
-  },
-  ready(){
   }
 })

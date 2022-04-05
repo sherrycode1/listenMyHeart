@@ -10,7 +10,7 @@
 </swiper>
 
 <!-- 推荐歌曲 -->
-<view class="recommand-song">
+<view class="recommand-song" wx:if="{{recommandSongs.length}}">
   <area-header title="推荐歌曲"></area-header>
   <view class="song-list">
     <block wx:for="{{recommandSongs}}" wx:key="id">
@@ -18,3 +18,30 @@
     </block>
   </view>
 </view>
+<!-- 热门歌曲 -->
+<view class="hot-song" wx:if="{{songMenu.length}}">
+  <area-header title="热门歌单"></area-header>
+  <scroll-view scroll-x class="menu-list">
+    <block wx:for="{{songMenu}}" wx:key="id">
+      <view class="menu-item">
+        <song-menu-item item="{{item}}"></song-menu-item>
+      </view>
+    </block>
+  </scroll-view>
+</view>
+<!-- 推荐歌单 -->
+<view class="hot-song" wx:if="{{recommandSongMenu.length}}">
+  <area-header title="推荐歌单"></area-header>
+  <scroll-view scroll-x class="menu-list">
+    <block wx:for="{{recommandSongMenu}}" wx:key="id">
+      <view class="menu-item">
+        <song-menu-item item="{{item}}"></song-menu-item>
+      </view>
+    </block>
+  </scroll-view>
+</view>
+<!-- 巅峰榜 -->
+ <view class="ranking">
+  <area-header title="巅峰榜" showRight=""></area-header>
+  
+ </view>

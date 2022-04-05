@@ -1,20 +1,47 @@
 /* pages/home-music/index.wxss */
-page{
-  padding:0 20rpx;
-  
+page {
+  padding: 0 20rpx;
+
 }
 
-.van-search{
+.van-search {
   padding: 10px 0 !important;
 }
-.swiper{
+
+.swiper {
   border-radius: 26rpx;
   overflow: hidden;
 }
-.swiper-item{
- display: flex;
+
+.swiper-item {
+  display: flex;
 }
 
-.swiper-item .swiper-image{
-   width: 100%;
+.swiper-item .swiper-image {
+  width: 100%;
+}
+
+.menu-list{
+  width: 100vw;
+  height: 150px;
+  white-space: nowrap;
+  position: relative;
+  left: -10px;
+}
+
+.menu-item {
+  display: inline-block;
+  width: 100px;
+  height: 150px;
+  margin-left: 10px;
+  border-radius: 6%;
+  overflow: hidden;
+}
+
+.menu-item:last-of-type{
+  margin-right: 10px;
+}
+
+.hot-song{
+  padding: 14rpx 0;
 }

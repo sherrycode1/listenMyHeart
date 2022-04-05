@@ -1,5 +1,11 @@
 <!--components/video-column-item/index.wxml-->
 <view class="item">
-<view>东西在那里！</view>
-  {{relatedVideo}}
+  <view class="image-container">
+    <image class="image" src="{{item.coverUrl}}"></image>
+  </view>
+
+  <view class="desc">
+    <view class="title">{{item.title}}</view>
+    <view class="author">{{item.creator[0].userName}}</view>
+  </view>
 </view>

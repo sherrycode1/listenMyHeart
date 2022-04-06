@@ -1,13 +1,17 @@
-// components/song-menu-item/index.js
+// components/song-item-v2/index.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    item: {
-      type: Object,
-      value: {}
-    }
+     item: {
+       type: Object,
+       value: {}
+     },
+     index: {
+       type: Number,
+       value: 1
+     }
   },
 
   /**
@@ -21,8 +25,6 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    handleMenuItemClick(){
-      console.log('hi');
-    }
+
   }
 })

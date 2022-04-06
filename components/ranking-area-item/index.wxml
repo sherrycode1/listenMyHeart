@@ -1,0 +1,13 @@
+<!--components/ranking-area-item/index.wxml-->
+<view class="container">
+  <view class="left-item">
+    <view class="title">{{item.name}}</view>
+    <view wx:for="{{item.songList}}" class="song-item">
+      <view class="song-name">{{item.name}} </view>
+      <view class="singer-name">- {{item.ar[0].name}}</view>
+    </view>
+  </view>
+  <view class="image">
+    <image src="{{item.coverImage}}"></image>
+  </view>
+</view>

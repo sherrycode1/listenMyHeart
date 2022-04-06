@@ -1,2 +1,2 @@
 // 全局管理
-export { rankingStore } from './ranking-store'
+export * from './ranking-store'

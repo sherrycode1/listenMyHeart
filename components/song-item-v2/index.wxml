@@ -1,0 +1,10 @@
+<!--components/song-item-v2/index.wxml-->
+<view class="item">
+  <view class="index">{{index + 1}}</view>
+  <view class="info">
+    <view class="name">{{item.name}}</view>
+    <view class="source">
+      <image src="/pages/icon/音质升级.png"></image> 
+    </view>
+  </view>
+</view>
